@@ -14,7 +14,7 @@
         }
 
         .nav{
-        align: center;
+        text-align: center;
         margin: 10px;
         padding: 20px;
         }
@@ -22,7 +22,7 @@
          a{
         color: black;
         text-decoration: none;
-         alignment: center;
+        alignment: center;
         }
 
         .img{
@@ -43,100 +43,141 @@
 </head>
 
 <body>
-<div class="container text-center">
-  <div class="row align-items-start">
-    <div class="col">
-      <div class="nav">
 
-    <ul class="nav flex-column">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="Home.html">HOME</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="About.html">ABOUT</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="Portfolio.html">PORTFOLIO</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="GetInTouch.html">GET IN TOUCH</a>
-  </li>
-</ul>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="Home.html">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="About.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Portfolio.html">My Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="GetInTouch.html">Get In Touch</a>
+        </li>
 
-</div>
+      </ul>
     </div>
-    <div class="col">
-     <img src="data1.jpg" class="img-fluid" alt="image" width="40%">
-    </div>
+  </div>
+</nav>
 
 
-</div>
 
 
-    <div>
+ <div class="row">
+    <div class="col header">
 
-        <p> <h5>Your Data Expert; Specializing in:</h5>.
+        <h4>Your Data Expert; Specializing in:</h4>
             <br>
-        <h5>
-            1. Data Mining <br>
-            2. Data Visualization <br>
-            3. Data Management <br>
-            4. Data Presentation <br>
-        </h5>
+        <h6>- Data Mining <br><br>
+            - Data Visualization <br><br>
+            - Data Management <br><br>
+            - Data Presentation <br><br>
+        </h6>
 
-        </p>
+    </div>
 
-        <div class="card">
+    <div class="col slider">
+
+      <img src="data3.png" class="img-thumbnail" alt="image" width="30%">
+
+    </div>
+
+  </div>
 
 
+
+  <div class="row">
+
+    <div class="col">
+
+    <div class="card">
   <div class="card-body">
     <h5 class="card-title">Data Mining</h5>
+
+      <img src="Data2.jpg" alt="image" width="20%">
+
     <p class="card-text"> Data mining typically uses four techniques to create descriptive and
         predictive power: regression, association rule discovery, classification and clustering</p>
-    <a href="#" class="btn btn-secondary">See Portfolio</a>
-  </div>
 
+    <a href="Portfolio.html" class="btn btn-secondary">See Portfolio</a>
 
-<div class="card">
-
-
-  <div class="card-body">
-    <h5 class="card-title">Data Visualization</h5>
-    <p class="card-text"> Data visualization techniques include Pie and Donut Charts, Histogram Plot, Scatter Plot,
-        Kernel Density Estimation for Non-Parametric Data, Box and Whisker Plot for Large Data, Word Clouds and Network
-        Diagrams for Unstructured Data, and Correlation Matrices.</p>
-    <a href="#" class="btn btn-secondary">See Portfolio</a>
-  </div>
-
-
-        <div class="card">
-
-
-  <div class="card-body">
-    <h5 class="card-title">Data Management</h5>
-    <p class="card-text"> The most common Data Management systems include relational database management systems (RDBMS),
-        object-oriented database management systems (OODMBS), in-memory databases, and columnar databases.</p>
-    <a href="#" class="btn btn-secondary">See Portfolio</a>
-  </div>
-
-
-
-        <div class="card">
-
-
-  <div class="card-body">
-    <h5 class="card-title">Data Presentation</h5>
-    <p class="card-text"> Data presentation is a process of comparing two or more data sets with visual aids, such as
-        graphs. Using a graph, you can represent how the information relates to other data. This process follows data
-        analysis and helps organise information by visualising and putting it into a more readable format</p>
-    <a href="#" class="btn btn-secondary">See Portfolio</a>
   </div>
 
 </div>
+
+    </div>
+
+        <div class="col">
+
+     <div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Data Visualization</h5>
+
+      <img src="Data3.png" alt="image" width="20%">
+
+    <p class="card-text"> Data visualization techniques include Pie and Donut Charts, Histogram Plot, Scatter Plot,
+        Kernel Density Estimation for Non-Parametric Data, Box and Whisker Plot for Large Data, Word Clouds and Network
+        Diagrams for Unstructured Data, and Correlation Matrices </p>
+
+    <a href="Portfolio.html" class="btn btn-secondary">See Portfolio</a>
+  </div>
+
+    </div>
+
+    </div>
+  </div>
+
+
+<div class="row">
+
+    <div class="col">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Data Management</h5>
+
+      <img src="DATA4.jpg" alt="image" width="20%">
+
+    <p class="card-text"> The most common Data Management systems include relational database management systems (RDBMS),
+        object-oriented database management systems (OODMBS), in-memory databases, and columnar databases.</p>
+    <a href="ManagementPortfolio.html" class="btn btn-secondary">See Portfolio</a>
+  </div>
+</div>
+
+    </div>
+
+        <div class="col">
+
+     <div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Data Presentation</h5>
+
+      <img src="Data5.jpg" alt="image" width="20%">
+
+    <p class="card-text">Data presentation is a process of comparing two or more data sets with visual aids, such as
+        graphs. Using a graph, you can represent how the information relates to other data. This process follows data
+        analysis and helps organise information by visualising and putting it into a more readable format </p>
+
+    <a href="PresentationPortfolio.html" class="btn btn-secondary">See Portfolio</a>
+  </div>
+
+    </div>
+
+    </div>
+  </div>
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+
 
 </body>
 </html>

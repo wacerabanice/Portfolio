@@ -5,62 +5,75 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
     <title>Document</title>
-
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <style>
+    body{
+    background: beige;
+    align: center;
+    }
 
-        body{
-        text-align: center;
-        }
+    form{
+    text-align:center;
+    padding: 50px;
+    }
+
+    .slider{
+    text-align: center;
+    }
+
     </style>
 </head>
 
 <body>
 
+<div class="slider">
+<img src="Data5.jpg" alt="image" width="30%" height="20%">
+</div>
 
 <br><br>
 
 <form>
-<p>
 
-     <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Interested In:
+    <h3>Interested In:</h3>
 
-   <div class="dropdown">
+<div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+  <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btncheck1">Data Mining</label>
 
-  </button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Data Mining</a></li>
-    <li><a class="dropdown-item" href="#">Data Visualization</a></li>
-    <li><a class="dropdown-item" href="#">Data Management</a></li>
-      <br>
+  <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btncheck2">Data Management</label>
 
-  </ul>
+  <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btncheck3">Data Visualization</label>
+
+    <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btncheck4">Data Presentation</label>
 </div>
 
-</div>
+    <br><br><br>
 
-   For further contact, Kindly Leave your details:
-</p>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="emailaddress" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-  </div>
-
+    <h4>Leave your details for further engagements:</h4>
     <br><br>
-
-  <div class="mb-3">
-    <label for="" class="form-label">Phone Numer</label>
-    <input type="text" class="form-control" id="exampleInputPhoneNumber">
-  </div>
+<div class="input">
+    <input class="form-control form-control-lg" type="email" placeholder="Enter your email address"
+           aria-label=".form-control-lg example">
+    <br>
+    <input class="form-control form-control-lg" type='number' placeholder="Enter your phone number"
+    aria-label=".form-control-lg example">
+</div>
 
     <br><br>
 <div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-warning">Submit</button>
 </div>
 </form>
 
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwL
+tnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
